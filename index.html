@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwiter</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Alterar a versão bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+
+<center>
+	<h1 class="header">	
+		Kwitter	<sup>
+	<img src="correio.png">
+	</sup>
+</h1>
+
+	<div class="col-lg-4 login_div">
+
+	<img src="cryingwojak.jpg" class="logo">
+		<h3 >Fale mal de todes</h3>
+
+		<h4 >Vire um militante hoje</h4>
+		
+		<div class="form-group">
+		  <label >Nome de Militante:</label>
+		 <input type="text" id="userName" class="form-control" placeholder="Nome de Militante">
+		</div>
+
+		<button id="loginButton" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+
+</body>
+</html>
